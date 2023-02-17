@@ -4,4 +4,7 @@ if (amount < 10) {
 } else {
   console.log("large number");
 }
-console.log(`first node app !!`);
+console.log(`first node app is in : ${__dirname} \nnamed : ${__filename}`);
+setInterval(() => {
+  console.log("helle world!");
+}, 1000);
